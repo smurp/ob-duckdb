@@ -41,7 +41,7 @@
     (list      . :any)
     (separator . :any)
     (nullvalue . :any))
-  "DuckDB specific header args.")
+  "DuckDB specific header args.") ;; TODO update from the SQLite orig
 
 (defun org-babel-expand-body:duckdb (body params)
   "Expand BODY according to the values of PARAMS."
